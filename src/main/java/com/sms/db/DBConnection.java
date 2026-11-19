@@ -30,11 +30,11 @@ public class DBConnection {
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL);
     }
-
+     //create statement and execute query
     /** Runs an INSERT / UPDATE / DELETE. Each ? in the SQL gets the next value. */
     public static void update(String sql, Object... values) throws SQLException {
         try (Connection con = getConnection();
-             PreparedStatement ps = con.prepareStatement(sql)) {   // step 3
+             PreparedStatement ps = con.prepareStatement(sql)) {   // step 3 create statement
             for (int i = 0; i < values.length; i++) {
                 ps.setObject(i + 1, values[i]);
             }

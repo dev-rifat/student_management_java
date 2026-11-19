@@ -164,6 +164,7 @@ public class StudentFrame extends JFrame {
         }
     }
 
+
     private void logout() {
         if (JOptionPane.showConfirmDialog(this, "Do you want to logout?", "Logout",
                 JOptionPane.YES_NO_OPTION) != JOptionPane.YES_OPTION) return;

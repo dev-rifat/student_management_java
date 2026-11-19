@@ -1,5 +1,4 @@
 package com.sms;
-
 import com.sms.db.DBConnection;
 import com.sms.ui.WelcomeFrame;
 import com.sms.util.AppInfo;

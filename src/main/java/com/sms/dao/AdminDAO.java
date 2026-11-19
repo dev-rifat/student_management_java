@@ -3,7 +3,6 @@ package com.sms.dao;
 import com.sms.db.DBConnection;
 import com.sms.model.Admin;
 import com.sms.util.AppInfo;
-
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.sql.Connection;
