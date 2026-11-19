@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Student Management System",
+      "request": "launch",
+      "mainClass": "com.sms.Main",
+      "projectName": "StudentManagementJDBC",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
